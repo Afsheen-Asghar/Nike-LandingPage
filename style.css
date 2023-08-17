@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: "Aeonik TRIAL";
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #F6F6F6;
+    position: relative;
+}
+#nav{
+    height: 110px;
+    padding: 0 80px;
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+#nav img{
+    height: 35px;
+    margin-right: 170px;
+
+}
+#nav-prt1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav-prt1 h4{
+    margin-right: 60px;
+    font-size: 19px;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-family: "Aeonik TRIAL";
+}
+#nav-prt2 i{
+    margin-right: 60px;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+#content{
+    width: 100%;
+    height: calc(100% - 110px);
+    display: flex;
+    /* background-color: mintcream; */
+}
+#left{
+    height: 100%;
+    padding: 70px 100px;
+
+    width: 35%;
+    /* background-color: aqua; */
+}
+#left h5{
+    font-size: 14px;
+   
+    color: #535353;
+}
+#left h1{
+    font-size: 50px;
+    text-transform: uppercase;
+  margin-top: 20px;
+
+}
+#left p{
+    
+   margin-top: 10px;
+    font-size: 13px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+#left button{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 45px;
+    border-top-left-radius: 0px;
+    border-radius: 50px;
+}
+#right{
+    width: 65%;
+    position: relative;
+    padding: 30px;
+    height: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    /* background-color: darkblue; */
+}
+.elem{
+    height: 450px;
+    width: 340px;
+    border-radius: 5%;
+    box-shadow: 0 5px 10px rgb(0, 0, 0.3);
+    position: relative;
+    display: inline-block;
+     margin-right: 20px;
+    
+    /* background-color: aliceblue; */
+}
+#right::-webkit-scrollbar{
+    display: none;
+}
+.elem img
+{
+    height: 70%;
+    width: 100%;
+    top: 7%;
+    object-position: center;
+    object-fit: cover;
+
+    position: absolute;
+}
+.elem h4{
+    position: absolute;
+    bottom: 110px;
+    text-transform: uppercase;
+    right: 0;
+    background-color: white;
+    color: black;
+    padding: 15px 40px;
+    border-radius: 6px;
+}
+
+.elem h5{
+    position: absolute;
+   
+    right: 0;
+    background-color: black;
+    color:white;
+    font-weight: 500;
+    margin-right: 5px;
+    padding: 15px 34px;
+    border-radius: 6px;
+    bottom: 15%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
